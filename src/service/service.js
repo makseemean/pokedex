@@ -31,6 +31,7 @@ const pokemonService = () => {
          id: pokemon.id,
          name: pokemon.name,
          img: pokemon.sprites.front_default,
+         art: pokemon.sprites.other.dream_world.front_default,
          types: pokemon.types.map(item => item.type.name),
          stats: [
             ...pokemon.stats,

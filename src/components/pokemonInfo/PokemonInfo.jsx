@@ -16,7 +16,7 @@ const PokemonInfo = ({ pokemon }) => {
          {pokemon ?
             <>
                <div className="pokemon__info-top">
-                  <img className="pokemon-info__img" src={pokemon.img} alt={pokemon.name} />
+                  <img className="pokemon-info__img" src={pokemon.art} alt={pokemon.name} />
                   <h2 className="pokemon-info__name">
                      {name}
                   </h2>
