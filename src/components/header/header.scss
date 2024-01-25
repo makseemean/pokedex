@@ -1,0 +1,11 @@
+.header {
+   padding: 1rem 0;
+   text-align: center;
+}
+
+.logo {
+   display: inline-block;
+   &__img {
+      max-width: 25rem;
+   }
+}

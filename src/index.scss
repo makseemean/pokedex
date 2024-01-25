@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #000;
+  background-color: #f6f8fa;
+  font-size: 1.6rem;
+  line-height: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.pokemon {
+  padding: 3rem 0;
+}
+
+.pokemon__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+@media (max-width: 580px) {
+  .pokemon__inner {
+    flex-direction: column;
+  }
+}
