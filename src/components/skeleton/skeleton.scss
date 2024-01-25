@@ -28,18 +28,6 @@
    .skeleton__item {
       height: 3rem;
    }
-
-   &_card {
-      position: static;
-
-      .skeleton__img {
-         height: 10rem;
-      }
-
-      .skeleton__item {
-         height: 1rem;
-      }
-   }
 }
 
 @keyframes skeletonShine {
@@ -52,5 +40,18 @@
    .skeleton {
       display: grid;
       grid-template-columns: .75fr 1fr;
+   }
+}
+
+.skeleton_card {
+   position: static;
+   display: block;
+
+   .skeleton__img {
+      height: 10rem;
+   }
+
+   .skeleton__item {
+      height: 1rem;
    }
 }
