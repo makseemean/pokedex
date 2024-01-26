@@ -15,11 +15,9 @@ function App() {
       <div className="App">
          <Header />
          <div className="pokemon">
-            <div className="container">
-               <div className="pokemon__inner">
-                  <PokemonList onPokemonData={onPokemonData} />
-                  <PokemonInfo pokemon={pokemon} />
-               </div>
+            <div className="pokemon__inner">
+               <PokemonList onPokemonData={onPokemonData} />
+               <PokemonInfo pokemon={pokemon} />
             </div>
          </div>
       </div>

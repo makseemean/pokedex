@@ -43,10 +43,20 @@ code {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
+
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 @media (max-width: 580px) {
-  .pokemon__inner {
-    flex-direction: column;
+  .pokemon {
+    position: relative;
+
+    &__inner {
+      flex-direction: column;
+      max-width: unset;
+      padding: 0;
+    }
   }
 }

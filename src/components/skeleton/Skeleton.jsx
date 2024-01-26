@@ -1,6 +1,6 @@
 import './skeleton.scss';
 
-const Skeleton = ({ className }) => {
+const Skeleton = ({ className = '' }) => {
    return (
       <div className={`skeleton ${className}`}>
          <div className="skeleton__img"></div>

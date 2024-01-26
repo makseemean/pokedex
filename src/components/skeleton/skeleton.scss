@@ -39,7 +39,11 @@
 @media (max-width: 580px) {
    .skeleton {
       display: grid;
-      grid-template-columns: .75fr 1fr;
+      grid-template-columns: .5fr 1fr;
+      max-width: unset;
+      .skeleton__img {
+         margin-bottom: 0;
+      }
    }
 }
 

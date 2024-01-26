@@ -14,7 +14,7 @@ const PokemonList = ({ onPokemonData }) => {
    const [error, setError] = useState(false);
    const [offset, setOffset] = useState(0);
    const [endOfList, setEndOfList] = useState(false);
-   const [activePokemon, setActivePokemon] = useState(null);
+   const [activePokemon, setActivePokemon] = useState(0);
 
    const service = pokemonService();
 
